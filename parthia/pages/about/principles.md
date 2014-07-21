@@ -1,15 +1,9 @@
 ---
+layout: about-page
 title: Principles
 permalink: /about/principles/
 menu: about
-order: 0
+order: 1
 ---
-
-<nav>
-    <ul>
-        {% assign menu = 'about' %}
-        {% include menu.html %}
-    </ul>
-</nav>
 
 Lorem ipsum.
