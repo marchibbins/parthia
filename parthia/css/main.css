@@ -68,12 +68,12 @@ a:visited { color: #205caa; }
 .site-nav .menu-icon { display: none; }
 
 .site-nav .page-link {
+  display: inline;
   margin-left: 20px;
-  color: #727272;
   letter-spacing: -.5px;
 }
 
-.site-nav .page-link.active {
+.page-link .active {
   font-weight: bold;
 }
 

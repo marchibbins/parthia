@@ -6,6 +6,8 @@ order: 2
 ---
 
 <nav>
-    {% assign menu = 'production' %}
-    {% include menu.html %}
+    <ul>
+        {% assign menu = 'production' %}
+        {% include menu.html %}
+    </ul>
 </nav>

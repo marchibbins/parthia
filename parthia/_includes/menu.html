@@ -2,9 +2,9 @@
 {% for node in pages %}
     {% if menu == null or menu == node.menu %}
         {% if page.url == node.url or node.url == page.parentUrl %}
-            <a href="{{ node.url | prepend: site.baseurl }}" class="page-link active" >{{ node.title }}</a>
+            <li class="page-link"><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{ node.title }}</a></li>
         {% else %}
-            <a href="{{ node.url | prepend: site.baseurl }}" class="page-link" >{{ node.title }}</a>
+            <li class="page-link"><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
         {% endif %}
     {% endif %}
 {% endfor %}

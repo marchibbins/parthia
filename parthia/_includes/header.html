@@ -3,8 +3,10 @@
         <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
         <nav class="site-nav">
-            {% assign menu = 'navigation' %}
-            {% include menu.html %}
+            <ul>
+                {% assign menu = 'navigation' %}
+                {% include menu.html %}
+            </ul>
         </nav>
     </div>
 </header>
