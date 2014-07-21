@@ -1,16 +1,10 @@
 ---
-layout: page-alt
+layout: production-page
 title: Producers
 permalink: /production/producers/
 parentUrl: /production/
 menu: production
+order: 1
 ---
-
-<nav>
-    <ul>
-        {% assign menu = 'production' %}
-        {% include menu.html %}
-    </ul>
-</nav>
 
 Lorem ipsum.
