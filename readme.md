@@ -6,9 +6,8 @@ A site built with [Jekyll](http://jekyllrb.com/).
 
         $ gem install jekyll
 
-2. Serve
+2. Serve with Jekyll
 
-        $ cd parthia
         $ jekyll serve
 
 3. Browse to [http://localhost:4000](http://localhost:4000)
