@@ -7,6 +7,22 @@
                 {% endfor %}
                 <em>{{ collaborator_type | capitalize }}</em>
                 <p>{{ collaborator.about }}</p>
+
+                {% if collaborator.images %}
+                    <ul>
+                        {% for src in collaborator.images %}
+                            <li><img src="{{ src }}"></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+
+                {% if collaborator.links %}
+                    <ul>
+                        {% for href in collaborator.links %}
+                            <li><a href="{{ href }}">{{ href }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
             </li>
         {% endif %}
     {% endfor %}

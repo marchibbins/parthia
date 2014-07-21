@@ -1,10 +1,13 @@
 - name: Peter Parker
   type: director
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
+  images: ["http://placehold.it/100x60/c00/fff", "http://placehold.it/100x60/600/fff"]
 
 - name: Ted Knight
   type: director
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
+  images: ["http://placehold.it/100x60/c00/fff", "http://placehold.it/100x60/600/fff"]
+  links: ["http://placehold.it/100x60/c00/fff", "http://placehold.it/100x60/600/fff"]
 
 - name: Lana Lang
   type: producer
