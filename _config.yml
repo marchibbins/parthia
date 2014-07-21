@@ -17,5 +17,6 @@ defaults:
       layout: "page"
 
 # Build settings
+exclude: ['Gruntfile.js']
 markdown: kramdown
 permalink: pretty
