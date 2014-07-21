@@ -5,6 +5,13 @@ description: "Write an awesome description for your new site here."
 url: "http://parthialondon.com"
 baseurl: ""
 
+defaults:
+  - scope:
+      path: ""
+      type: "page"
+    values:
+      layout: "page"
+
 # Build settings
 markdown: kramdown
 permalink: pretty
