@@ -146,22 +146,6 @@ a:visited { color: #205caa; }
 
 .home h1 { margin-bottom: 25px; }
 
-.posts { list-style-type: none; }
-
-.posts li { margin-bottom: 30px; }
-
-.posts .post-link {
-  font-size: 24px;
-  letter-spacing: -1px;
-  line-height: 1;
-}
-
-.posts .post-date {
-  display: block;
-  font-size: 15px;
-  color: #818181;
-}
-
 
 /* Post styles */
 /* ----------------------------------------------------------*/
@@ -173,12 +157,6 @@ a:visited { color: #205caa; }
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
-}
-
-.post-header .meta {
-  font-size: 15px;
-  color: #818181;
-  margin-top: 5px;
 }
 
 .post-content { margin: 0 0 30px; }
