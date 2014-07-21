@@ -1,0 +1,19 @@
+- name: Peter Parker
+  type: director
+  about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
+
+- name: Ted Knight
+  type: director
+  about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
+
+- name: Lana Lang
+  type: producer
+  about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
+
+- name: ["Bruce Wayne", "Dick Grayson"]
+  type: "producer"
+  about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
+
+- name: "Arthur Curry"
+  type: ["director", "producer"]
+  about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"

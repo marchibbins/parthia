@@ -1,0 +1,13 @@
+<ul>
+    {% for collaborator in site.data.collaborators %}
+        {% if collaborator.type contains collaborator_type %}
+            <li>
+                {% for name in collaborator.name %}
+                    {{ name }},
+                {% endfor %}
+                <em>{{ collaborator_type | capitalize }}</em>
+                <p>{{ collaborator.about }}</p>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>

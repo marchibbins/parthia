@@ -7,4 +7,5 @@ menu: production
 order: 0
 ---
 
-Lorem ipsum.
+{% assign collaborator_type = 'director' %}
+{% include collaborators.html %}
