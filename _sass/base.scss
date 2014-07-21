@@ -1,0 +1,80 @@
+/* Base styles */
+body {
+    background-color: $background-color;
+}
+
+/* Typography */
+html {
+    font-family: $sans-serif;
+    // Set baseline font size to 10px
+    // This is used as a baseline for rem (root ems) values
+    font-size: 62.5%;
+}
+
+body {
+    color: $body-text-color;
+    font-size: 1.6em; // Bump font-size back up to 16px
+    line-height: 1.5;
+}
+
+/* Defaults */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+blockquote {
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: ($baseline/3)*2;
+}
+
+/* Links */
+a {
+    color: $link-color;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: $link-hover-color;
+        text-decoration: underline;
+    }
+
+    &:active {
+        color: $link-active-color;
+        text-decoration: none;
+    }
+}
+
+/* Lists */
+ol,
+ul {
+    list-style-position: inside;
+    margin-left: $gutter;
+    padding: 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.unstyled {
+    margin: 0;
+    list-style: none;
+}
+
+.inline-list {
+    @extend .unstyled;
+}
+
+.inline-list__item {
+    display: inline-block;
+}

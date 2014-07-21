@@ -42,25 +42,25 @@ $mq-show-breakpoints: () !default;
     }
 }
 
-// Media Query mixin
-// Usage:
-// .element {
-//     @include mq($from: mobile) {
-//         color: red;
-//     }
-//     @include mq($to: tablet) {
-//         color: blue;
-//     }
-//     @include mq(mobile, tablet) {
-//         color: green;
-//     }
-//     @include mq($from: tablet, $and: '(orientation: landscape)') {
-//         color: teal;
-//     }
-//     @include mq(950px) {
-//         color: hotpink;
-//     }
-// }
+/* Media Query mixin
+   Usage:
+   .element {
+       @include mq($from: mobile) {
+           color: red;
+       }
+       @include mq($to: tablet) {
+           color: blue;
+       }
+       @include mq(mobile, tablet) {
+           color: green;
+       }
+       @include mq($from: tablet, $and: '(orientation: landscape)') {
+           color: teal;
+       }
+       @include mq(950px) {
+           color: hotpink;
+       }
+   } */
 
 @mixin mq($from: false, $to: false, $and: false) {
 

@@ -1,16 +1,17 @@
 /* Base */
 $gutter:                20px;
-$baseline:              16px;
-
-$headerHeight:          $baseline*3;
+$baseline:              24px;
+$column-width:          200px;
+$row-height:            122px;
+$max-columns:           4;
 
 /* Base */
-$bgColor:               #fdfdfd;
-$bodyTextColor:         #333;
-$titleTextColor:        #333;
-$linkColor:             #2a7ae2;
-$linkHoverColor:        #000;
-$linkVisitedColor:      #205caa;
+$background-color:      #fdfdfd;
+$body-text-color:       #333;
+$title-hext-color:      #333;
+$link-color:            #2a7ae2;
+$link-hover-color:      #000;
+$link-active-color:     #205caa;
 
 /* Fonts */
 $sans-serif:            Helvetica, Arial, sans-serif;

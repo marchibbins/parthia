@@ -2,16 +2,15 @@
 <html>
     {% include head.html %}
 <body>
-    {% include header.html %}
+    <div class="container">
+        {% include header.html %}
 
-    <div class="page-content">
-        <div class="wrap">
+        <div class="page-content">
             <p>{{ site.description }}</p>
-
             {{ content }}
         </div>
-    </div>
 
-    {% include footer.html %}
+        {% include footer.html %}
+    </div>
 </body>
 </html>

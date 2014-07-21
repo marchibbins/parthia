@@ -1,0 +1,42 @@
+/* Simplified Guss grid system
+   https://github.com/guardian/guss-grid-system */
+
+@function grid-span($n-columns) {
+    @return $n-columns * $column-width + $gutter * ($n-columns - 1);
+}
+
+@function grid-height($n-rows) {
+    @return $n-rows * $row-height + $baseline * ($n-rows - 1);
+}
+
+/* Grid container */
+@mixin grid-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: grid-span(4) + $gutter*2;
+
+    // Snap up to 16 columns on wider viewports
+    @include mq(wide) {
+        max-width: grid-span(4) + $gutter*2;
+    }
+}
+
+/* Classes usable if an object has the same width across all viewports
+   for example: `<div class="grid-span-3"></div>` */
+@mixin grid-helpers {
+    @for $n from 1 through $max-columns {
+        .span-#{$n} {
+            width: grid-span($n);
+        }
+    }
+}
+
+/* Attach container system to class name */
+@mixin grid-system {
+    .container {
+        @include grid-container;
+    }
+}
+
+@include grid-system;
+@include grid-helpers;
