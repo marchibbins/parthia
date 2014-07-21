@@ -1,7 +1,8 @@
 ---
 title: About
 permalink: /about/
-menu: navigation
+menu: [navigation, about]
+about_menu_title: Vision
 order: 0
 ---
 

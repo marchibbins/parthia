@@ -1,10 +1,16 @@
 {% assign pages = site.pages | sort:"order" %}
 {% for node in pages %}
-    {% if menu == null or menu == node.menu %}
-        {% if page.url == node.url or node.url == page.parentUrl %}
-            <li class="page-link"><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{ node.title }}</a></li>
+    {% if menu == null or node.menu contains menu %}
+        {% assign menu_title = menu | append: '_menu_title' %}
+        {% if node[menu_title] %}
+            {% assign node_title = node[menu_title] %}
         {% else %}
-            <li class="page-link"><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+            {% assign node_title = node.title %}
+        {% endif %}
+        {% if page.url == node.url or node.url == page.parentUrl %}
+            <li class="page-link"><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{ node_title }}</a></li>
+        {% else %}
+            <li class="page-link"><a href="{{ node.url | prepend: site.baseurl }}">{{ node_title }}</a></li>
         {% endif %}
     {% endif %}
 {% endfor %}
