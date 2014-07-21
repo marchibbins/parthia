@@ -2,7 +2,7 @@
 title: Contact
 permalink: /contact/
 menu: navigation
-order: 2
+order: 3
 ---
 
-Contact page.
+Lorem ipsum.
