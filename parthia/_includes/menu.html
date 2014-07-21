@@ -1,0 +1,12 @@
+{% assign pages = site.pages | sort:"order" %}
+{% for node in pages %}
+    {% if menu == null or menu == node.menu %}
+        {% if page.url == node.url %}
+            <a href="{{ node.url | prepend: site.baseurl }}" class="page-link active" >{{ node.title }}</a>
+        {% else %}
+            <a href="{{ node.url | prepend: site.baseurl }}" class="page-link" >{{ node.title }}</a>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+{% assign pages = nil %}
+{% assign menu = nil %}

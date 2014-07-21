@@ -3,13 +3,8 @@
         <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
         <nav class="site-nav">
-            <div class="trigger">
-                {% for node in site.pages %}
-                    {% if node.title %}
-                        <a class="page-link {% if page.url == node.url %}active{% endif %}" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
-                    {% endif %}
-                {% endfor %}
-            </div>
+            {% assign menu = 'navigation' %}
+            {% include menu.html %}
         </nav>
     </div>
 </header>
