@@ -8,6 +8,10 @@ layout: base
     {% include menu.html %}
 {% endif %}
 
+{% if page.image %}
+    <img class="page-image" src="{{ page.image }}">
+{% endif %}
+
 <header class="page-header">
     <h1 class="page-header__title">{{ page.title }}</h1>
     {% if page.subtitle %}
