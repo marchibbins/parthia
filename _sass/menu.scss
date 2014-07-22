@@ -62,6 +62,13 @@
         color: $body-text-color;
         font-size: 22px;
         line-height: 30px;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            color: $link-hover-color;
+        }
     }
 }
 
