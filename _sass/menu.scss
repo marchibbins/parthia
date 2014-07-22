@@ -6,18 +6,32 @@
 
     .nav__item {
         @extend .inline-list__item;
-
-        .active {
-            font-weight: bold;
-        }
     }
 }
 
 .nav--site {
+    margin-bottom: $baseline*4;
     text-align: center;
 
     .nav__item--site {
-        margin: 0 ($gutter / 2);
+        margin: 0 ($gutter/2);
+    }
+
+    .nav__link--site {
+        background-color: $site-header-color;
+        color: $nav-text-color;
+        display: block;
+        line-height: grid-height(1);
+        height: grid-height(1);
+        width: grid-span(1);
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            background-color: $link-hover-color;
+            text-decoration: none;
+        }
     }
 }
 
@@ -25,11 +39,7 @@
     text-align: right;
 
     .nav__item--footer {
-        margin-left: $gutter / 2;
-
-        .active {
-            font-weight: normal;
-        }
+        margin-left: $gutter/2;
     }
 
     .nav__link--footer {
