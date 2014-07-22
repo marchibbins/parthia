@@ -78,3 +78,11 @@ dt {
 .inline-list__item {
     display: inline-block;
 }
+
+.hide-on-mobile {
+    display: none !important;
+
+    @include mq(tablet) {
+        display: block !important;
+    }
+}
