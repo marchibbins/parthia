@@ -35,6 +35,30 @@
     }
 }
 
+.nav--sub {
+    margin-bottom: $baseline*3;
+    text-align: center;
+
+    .nav__item {
+        display: block;
+    }
+
+    .nav__link {
+        color: $body-text-color;
+        font-size: 22px;
+        line-height: 30px;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            color: $link-hover-color;
+            text-decoration: none;
+        }
+    }
+}
+
+
 .nav--footer {
     text-align: right;
 
