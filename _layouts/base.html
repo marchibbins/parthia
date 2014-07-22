@@ -2,13 +2,19 @@
 <html>
     {% include head.html %}
 <body>
-    <div class="container">
-        {% include header.html %}
+    {% include header.html %}
 
-        <div class="page-content">
-            <p>{{ site.description }}</p>
-            {{ content }}
-        </div>
+    <div class="container">
+        <p class="site-tagline">{{ site.description }}</p>
+
+        <nav class="site-nav">
+            <ul>
+                {% assign menu = 'navigation' %}
+                {% include menu.html %}
+            </ul>
+        </nav>
+
+        {{ content }}
 
         {% include footer.html %}
     </div>

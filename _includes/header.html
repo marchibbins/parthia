@@ -1,11 +1,10 @@
 <header class="site-header">
-    <div class="wrap">
-        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        <nav class="site-nav">
-            <ul>
-                {% assign menu = 'navigation' %}
-                {% include menu.html %}
-            </ul>
-        </nav>
+    <div class="container">
+        {% if page.site_title_h1 %}
+            {% assign tag = 'h1' %}
+        {% else %}
+            {% assign tag = 'span' %}
+        {% endif %}
+        <{{ tag }}><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></{{ tag }}>
     </div>
 </header>
