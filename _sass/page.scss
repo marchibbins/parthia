@@ -1,3 +1,12 @@
+/* Home */
+.hello {
+    background-color: $parthia-red;
+    color: #fff;
+    height: grid-height(1);
+    line-height: grid-height(1);
+    text-align: center;
+}
+
 /* Page styles */
 .page-image {
     border-top: 12px solid $border-red;

@@ -1,8 +1,3 @@
-/* Base styles */
-body {
-    background-color: $background-color;
-}
-
 /* Typography */
 html {
     font-family: $sans-serif;
@@ -12,9 +7,11 @@ html {
 }
 
 body {
+    background-color: $background-color;
     color: $body-text-color;
     font-size: 1.6em; // Bump font-size back up to 16px
     line-height: 1.5;
+    text-transform: lowercase;
 }
 
 /* Defaults */
