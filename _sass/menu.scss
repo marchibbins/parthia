@@ -10,17 +10,26 @@
 }
 
 .nav--site {
-    margin-bottom: $baseline*3;
+    margin: 0 auto $baseline*3;
+    max-width: grid-span(2) + $gutter*2;
     text-align: center;
-    font-size: 0;
+
+    @include mq(desktop) {
+        @include clearfix;
+        max-width: none;
+    }
 
     .nav__item {
-        font-size: 16px;
-        margin-bottom: $baseline;
-        margin-left: $gutter;
+        margin: 0 $gutter/2 $baseline;
 
-        &:first-child {
-            margin-left: 0;
+        @include mq(desktop) {
+            float: left;
+            margin-left: $gutter;
+            margin-right: 0;
+
+            &:first-child {
+                margin-left: 0;
+            }
         }
     }
 
