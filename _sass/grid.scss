@@ -13,12 +13,8 @@
 @mixin grid-container {
     position: relative;
     margin: 0 auto;
-    max-width: grid-span(4) + $gutter*2;
-
-    // Snap up to 16 columns on wider viewports
-    @include mq(wide) {
-        max-width: grid-span(4) + $gutter*2;
-    }
+    max-width: grid-span(4);
+    padding: 0 $gutter;
 }
 
 /* Classes usable if an object has the same width across all viewports

@@ -10,11 +10,18 @@
 }
 
 .nav--site {
-    margin-bottom: $baseline*4;
+    margin-bottom: $baseline*3;
     text-align: center;
+    font-size: 0;
 
     .nav__item {
-        margin: 0 ($gutter/2);
+        font-size: 16px;
+        margin-bottom: $baseline;
+        margin-left: $gutter;
+
+        &:first-child {
+            margin-left: 0;
+        }
     }
 
     .nav__link {
