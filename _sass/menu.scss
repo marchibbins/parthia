@@ -13,11 +13,11 @@
     margin-bottom: $baseline*4;
     text-align: center;
 
-    .nav__item--site {
+    .nav__item {
         margin: 0 ($gutter/2);
     }
 
-    .nav__link--site {
+    .nav__link {
         background-color: $site-header-color;
         color: $nav-text-color;
         display: block;
@@ -38,11 +38,11 @@
 .nav--footer {
     text-align: right;
 
-    .nav__item--footer {
+    .nav__item {
         margin-left: $gutter/2;
     }
 
-    .nav__link--footer {
+    .nav__link {
         color: $body-text-color;
     }
 }

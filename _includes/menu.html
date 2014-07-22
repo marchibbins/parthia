@@ -1,13 +1,13 @@
 {% if site.data[menu] %}
 <nav class="nav nav--{{ menu_class }}">
-    <ul class="nav__list nav__list--{{ menu_class }}">
+    <ul class="nav__list">
         {% for item in site.data[menu] %}
             {% assign link_class = '' %}
             {% if item.href == page.url or item.href == page[menu] %}
                 {% assign link_class = 'active' %}
             {% endif %}
-            <li class="nav__item nav__item--{{ menu_class }}">
-                <a class="nav__link nav__link--{{ menu_class }} {{ link_class }}" href="{{ item.href }}" title="Go to {{ item.name }}">{{ item.name }}</a>
+            <li class="nav__item">
+                <a class="nav__link {{ link_class }}" href="{{ item.href }}" title="Go to {{ item.name }}">{{ item.name }}</a>
             </li>
         {% endfor %}
     </ul>
