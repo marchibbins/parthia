@@ -1,15 +1,32 @@
-/* Home */
-.hello {
+/* Page styles */
+.page-header {
     background-color: $parthia-red;
-    color: #fff;
-    height: grid-height(1);
-    line-height: grid-height(1);
+    min-height: grid-height(1);
+    margin-bottom: $gutter;
     text-align: center;
+
+    .page-header__title {
+        color: #fff;
+        line-height: grid-height(1);
+    }
+
+    .page-header__subtitle {
+        color: #fff;
+        font-size: 14px;
+        padding-bottom: $baseline*2;
+        margin-top: -$baseline*1.5;
+    }
 }
 
-/* Page styles */
 .page-image {
     border-top: 12px solid $border-red;
     display: block;
     margin-bottom: $gutter;
+}
+
+.page-content {
+    background-color: $site-header-color;
+    color: #fff;
+    margin-bottom: $gutter;
+    padding: $baseline $gutter $baseline/2;
 }

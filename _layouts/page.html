@@ -19,6 +19,8 @@ layout: base
     {% endif %}
 </header>
 
-<article class="page-content">
-    {{ content }}
-</article>
+{% if page.empty != true %}
+    <article class="page-content">
+        {{ content }}
+    </article>
+{% endif %}
