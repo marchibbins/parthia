@@ -10,4 +10,6 @@
 /* Page styles */
 .page-image {
     border-top: 12px solid $border-red;
+    display: block;
+    margin-bottom: $gutter;
 }
