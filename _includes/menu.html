@@ -1,5 +1,5 @@
 {% if site.data[menu] %}
-<nav class="nav nav--{{ menu_class }}">
+<nav class="nav{% if menu_class %} nav--{{ menu_class }}{% endif %}">
     <ul class="nav__list">
         {% for item in site.data[menu] %}
             {% assign link_class = '' %}
