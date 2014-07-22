@@ -1,0 +1,22 @@
+/* Site footer */
+.site-footer {
+    border-top: 1px solid #e8e8e8;
+    padding: ($baseline - 1) 0 $baseline;
+}
+
+.site-footer__column {
+    float: left;
+    width: grid-span(2);
+}
+
+.site-footer__copy {
+    margin-bottom: $baseline * 2;
+}
+
+.footer-nav {
+    float: right;
+}
+
+.footer-nav__item {
+    margin-left: $gutter / 2;
+}
