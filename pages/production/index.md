@@ -1,5 +1,5 @@
 ---
-layout: production-page
+layout: page-production
 title: Production
 permalink: /production/
 ---

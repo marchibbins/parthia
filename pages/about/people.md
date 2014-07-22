@@ -1,5 +1,5 @@
 ---
-layout: about-page
+layout: page-about
 title: People
 permalink: /about/people/
 navigation-menu: /about/
