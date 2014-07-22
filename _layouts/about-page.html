@@ -2,11 +2,8 @@
 layout: page
 ---
 
-<nav>
-    <ul>
-        {% assign menu = 'about' %}
-        {% include menu.html %}
-    </ul>
-</nav>
+{% assign menu = 'about-menu' %}
+{% assign menu_class = 'about' %}
+{% include menu.html %}
 
 {{ content }}

@@ -1,0 +1,34 @@
+/* Site footer */
+.nav {
+    .nav__list {
+        @extend .inline-list;
+    }
+
+    .nav__item {
+        @extend .inline-list__item;
+
+        .active {
+            font-weight: bold;
+        }
+    }
+}
+
+.nav--site {
+    text-align: center;
+
+    .nav__item--site {
+        margin: 0 ($gutter / 2);
+    }
+}
+
+.nav--footer {
+    text-align: right;
+
+    .nav__item--footer {
+        margin-left: $gutter / 2;
+
+        .active {
+            font-weight: normal;
+        }
+    }
+}

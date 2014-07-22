@@ -7,12 +7,9 @@
     <div class="container">
         <p class="site-tagline">{{ site.description }}</p>
 
-        <nav class="site-nav">
-            <ul>
-                {% assign menu = 'navigation' %}
-                {% include menu.html %}
-            </ul>
-        </nav>
+        {% assign menu = 'navigation-menu' %}
+        {% assign menu_class = 'site' %}
+        {% include menu.html %}
 
         {{ content }}
     </div>

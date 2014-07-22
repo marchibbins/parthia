@@ -2,9 +2,7 @@
 layout: production-page
 title: Producers
 permalink: /production/producers/
-parentUrl: /production/
-menu: production
-order: 1
+navigation-menu: /production/
 ---
 
 {% assign collaborator_type = 'producer' %}

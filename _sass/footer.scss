@@ -2,34 +2,22 @@
 .site-footer {
     border-top: 1px solid $border-grey;
     padding: ($baseline - 1) 0 $baseline;
-}
 
-.site-footer__column {
-    float: left;
-    width: grid-span(2);
-}
+    .site-footer__column {
+        float: left;
+        width: grid-span(2);
+    }
 
-.site-footer__copy {
-    margin-bottom: $baseline * 2;
-}
+    .site-footer__copy {
+        margin-bottom: $baseline * 2;
+    }
 
-.footer-nav {
-    float: right;
-}
+    .site-footer__info {
+        margin-bottom: $baseline * 2;
+    }
 
-.footer-nav__item {
-    margin-left: $gutter / 2;
-}
-
-.site-footer__info {
-    margin-bottom: $baseline * 2;
-}
-
-.site-footer__info {
-    margin-bottom: $baseline * 2;
-}
-
-.site-footer__info-title {
-    font-size: 1.6rem;
-    font-weight: normal;
+    .site-footer__info-title {
+        font-size: 1.6rem;
+        font-weight: normal;
+    }
 }

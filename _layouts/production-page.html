@@ -2,11 +2,8 @@
 layout: page
 ---
 
-<nav>
-    <ul>
-        {% assign menu = 'production' %}
-        {% include menu.html %}
-    </ul>
-</nav>
+{% assign menu = 'production-menu' %}
+{% assign menu_class = 'production' %}
+{% include menu.html %}
 
 {{ content }}

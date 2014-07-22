@@ -1,19 +1,17 @@
-{% assign pages = site.pages | sort:"order" %}
-{% for node in pages %}
-    {% if menu == null or node.menu contains menu %}
-        {% assign menu_title = menu | append: '_menu_title' %}
-        {% if node[menu_title] %}
-            {% assign node_title = node[menu_title] %}
-        {% else %}
-            {% assign node_title = node.title %}
-        {% endif %}
-        {% if page.url == node.url or node.url == page.parentUrl %}
-            <li class="page-link {{ list_class }}"><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{ node_title }}</a></li>
-        {% else %}
-            <li class="page-link {{ list_class }}"><a href="{{ node.url | prepend: site.baseurl }}">{{ node_title }}</a></li>
-        {% endif %}
-    {% endif %}
-{% endfor %}
-{% assign pages = nil %}
+{% if site.data[menu] %}
+<nav class="nav nav--{{ menu_class }}">
+    <ul class="nav__list nav__list--{{ menu_class }}">
+        {% for item in site.data[menu] %}
+            {% assign link_class = '' %}
+            {% if item.href == page.url or item.href == page[menu] %}
+                {% assign link_class = 'active' %}
+            {% endif %}
+            <li class="nav__item nav__item--{{ menu_class }}">
+                <a class="nav__link nav__link--{{ menu_class }} {{ link_class }}" href="{{ item.href }}" title="Go to {{ item.name }}">{{ item.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
+{% endif %}
 {% assign menu = nil %}
-{% assign list_class = nil %}
+{% assign menu_class = nil %}

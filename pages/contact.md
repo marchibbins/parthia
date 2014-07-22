@@ -1,8 +1,6 @@
 ---
 title: Contact
 permalink: /contact/
-menu: navigation
-order: 3
 ---
 
 <h3>Contact</h3>
