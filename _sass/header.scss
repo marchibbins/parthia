@@ -16,15 +16,10 @@
     text-indent: -9999px;
     top: 75px;
     width: $logo-width;
-
-    &:hover,
-    &:focus ,
-    &:active {
-        color: $nav-text-color;
-    }
 }
 
 .site-tagline {
+    color: $title-text-color;
     font-size: 34px;
     line-height: 36px;
     margin: $baseline*4 auto;

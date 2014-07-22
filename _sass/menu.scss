@@ -46,7 +46,6 @@
         &:active,
         &.active {
             background-color: $link-hover-color;
-            text-decoration: none;
         }
     }
 }
@@ -63,14 +62,6 @@
         color: $body-text-color;
         font-size: 22px;
         line-height: 30px;
-
-        &:hover,
-        &:focus,
-        &:active,
-        &.active {
-            color: $link-hover-color;
-            text-decoration: none;
-        }
     }
 }
 
@@ -84,5 +75,11 @@
 
     .nav__link {
         color: $body-text-color;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $link-hover-color;
+        }
     }
 }
