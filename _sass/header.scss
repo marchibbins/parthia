@@ -29,5 +29,5 @@
     line-height: 36px;
     margin: $baseline*4 auto;
     text-align: center;
-    width: grid-span(2);
+    max-width: grid-span(2);
 }
