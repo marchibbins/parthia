@@ -19,17 +19,18 @@
     }
 }
 
+.page-content {
+    background-color: $site-header-color;
+    color: #fff;
+    min-height: grid-height(1) - $baseline*1.5;
+    margin-bottom: $gutter;
+    padding: $baseline $gutter $baseline/2;
+}
+
 .page-image {
     border-top: 12px solid $border-red;
     display: block;
     margin-bottom: $gutter;
-}
-
-.page-content {
-    background-color: $site-header-color;
-    color: #fff;
-    margin-bottom: $gutter;
-    padding: $baseline $gutter $baseline/2;
 }
 
 @include mq(tablet) {
@@ -60,5 +61,27 @@
     .columns__center {
         display: table-cell;
         vertical-align: middle;
+    }
+
+    .columns--switch {
+        .columns__left {
+            width: grid-span(2) - $gutter*2;
+        }
+
+        .columns__right {
+            width: grid-span(2);
+        }
+    }
+}
+
+.principles {
+    @include mq(tablet) {
+        .page-content,
+        .page-header {
+            height: grid-height(1.5);
+            padding-top: 0;
+            padding-bottom: 0;
+            text-align: center;
+        }
     }
 }

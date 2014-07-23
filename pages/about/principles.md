@@ -1,35 +1,72 @@
 ---
-layout: page-about
+layout: base
 title: Principles
 permalink: /about/principles/
 navigation-menu: /about/
 ---
 
-<dl>
-    <dt>Lorem</dt>
-    <dd>Ipsum dolor sit amet</dd>
+{% assign menu = 'about-menu' %}
+{% assign menu_class = 'sub' %}
+{% include menu.html %}
 
-    <dt>Consectetur</dt>
-    <dd>Adipiscing elit</dd>
-    
-    <dt>Lorem</dt>
-    <dd>Ipsum dolor sit amet</dd>
+<div class="principles">
+    <dl class="columns">
+        <dt class="columns__left page-header">
+            <div class="columns__wrap">
+                <div class="columns__center">
+                    <span class="page-header__title">Lorem</span>
+                </div>
+            </div>
+        </dt>
+        <dd class="columns__right page-content">
+            <div class="columns__wrap">
+                <div class="columns__center">Ipsum dolor sit amet</div>
+            </div>
+        </dd>
+    </dl>
 
-    <dt>Consectetur</dt>
-    <dd>Adipiscing elit</dd>
-    
-    <dt>Lorem</dt>
-    <dd>Ipsum dolor sit amet</dd>
+    <dl class="columns columns--switch">
+        <dt class="columns__right page-header">
+            <div class="columns__wrap">
+                <div class="columns__center">
+                    <span class="page-header__title">Lorem</span>
+                </div>
+            </div>
+        </dt>
+        <dd class="columns__left page-content">
+            <div class="columns__wrap">
+                <div class="columns__center">Ipsum dolor sit amet</div>
+            </div>
+        </dd>
+    </dl>
 
-    <dt>Consectetur</dt>
-    <dd>Adipiscing elit</dd>
-    
-    <dt>Lorem</dt>
-    <dd>Ipsum dolor sit amet</dd>
+    <dl class="columns">
+        <dt class="columns__left page-header">
+            <div class="columns__wrap">
+                <div class="columns__center">
+                    <span class="page-header__title">Lorem</span>
+                </div>
+            </div>
+        </dt>
+        <dd class="columns__right page-content">
+            <div class="columns__wrap">
+                <div class="columns__center">Ipsum dolor sit amet</div>
+            </div>
+        </dd>
+    </dl>
 
-    <dt>Consectetur</dt>
-    <dd>Adipiscing elit</dd>
-    
-    <dt>Lorem</dt>
-    <dd>Ipsum dolor sit amet</dd>
-</dl>
+    <dl class="columns columns--switch">
+        <dt class="columns__right page-header">
+            <div class="columns__wrap">
+                <div class="columns__center">
+                    <span class="page-header__title">Lorem</span>
+                </div>
+            </div>
+        </dt>
+        <dd class="columns__left page-content">
+            <div class="columns__wrap">
+                <div class="columns__center">Ipsum dolor sit amet</div>
+            </div>
+        </dd>
+    </dl>
+</div>

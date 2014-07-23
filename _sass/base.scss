@@ -60,8 +60,12 @@ ul {
     padding: 0;
 }
 
+dl, dd {
+    margin: 0;
+}
+
 dt {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .unstyled {
