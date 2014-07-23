@@ -12,22 +12,26 @@ layout: base
     <img class="page-image" src="{{ page.image }}">
 {% endif %}
 
-<div class="page-wrapper">
+<div class="columns">
     {% if page.home == true %}
-        <header class="page-header page-header--home">
+        <header class="page-header">
             <h2 class="page-header__title">{{ page.title }}</h2>
         </header>
     {% else %}
-        <header class="page-header">
-            <h1 class="page-header__title">{{ page.title }}</h1>
-            {% if page.subtitle %}
-                <h2 class="page-header__subtitle">{{ page.subtitle }}</h2>
-            {% endif %}
+        <header class="columns__left page-header">
+            <div class="columns__wrap">
+                <div class="columns__center">
+                    <h1 class="page-header__title">{{ page.title }}</h1>
+                    {% if page.subtitle %}
+                        <h2 class="page-header__subtitle">{{ page.subtitle }}</h2>
+                    {% endif %}
+                </div>
+            </div>
         </header>
     {% endif %}
 
     {% if !page.home != true %}
-        <article class="page-content">
+        <article class="columns__right page-content">
             {{ content }}
         </article>
     {% endif %}

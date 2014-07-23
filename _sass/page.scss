@@ -5,24 +5,10 @@
     margin-bottom: $gutter;
     text-align: center;
 
-    @include mq(tablet) {
-        bottom: 0;
-        position: absolute;
-        top: 0;
-        width: grid-span(2);
-    }
-
     .page-header__title {
         color: #fff;
         font-size: 34px;
         line-height: grid-height(1);
-
-        @include mq(tablet) {
-            margin-top: -(grid-height(1)/2);
-            position: absolute;
-            top: 50%;
-            width: 100%;
-        }
     }
 
     .page-header__subtitle {
@@ -30,20 +16,6 @@
         font-size: 14px;
         margin-top: -$baseline*1.5;
         padding-bottom: $baseline*2;
-
-        @include mq(tablet) {
-            margin-top: $baseline;
-            position: absolute;
-            top: 50%;
-            width: 100%;
-        }
-    }
-}
-
-.page-header--home {
-    @include mq(tablet) {
-        position: relative;
-        width: auto;
     }
 }
 
@@ -58,17 +30,35 @@
     color: #fff;
     margin-bottom: $gutter;
     padding: $baseline $gutter $baseline/2;
+}
 
-    @include mq(tablet) {
+@include mq(tablet) {
+    .columns {
+        @include clearfix;
+        position: relative;
+    }
+
+    .columns__left {
+        bottom: 0;
+        position: absolute;
+        top: 0;
+        width: grid-span(2);
+    }
+
+    .columns__right {
         float: left;
         margin-left: grid-span(2) + $gutter;
         width: grid-span(2) - $gutter*2;
     }
-}
 
-.page-wrapper {
-    @include mq(tablet) {
-        @include clearfix;
-        position: relative;
+    .columns__wrap {
+        display: table;
+        height: 100%;
+        width: 100%;
+    }
+
+    .columns__center {
+        display: table-cell;
+        vertical-align: middle;
     }
 }
