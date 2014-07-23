@@ -33,7 +33,7 @@
     margin-bottom: $gutter;
 }
 
-@include mq(tablet) {
+@include mq(tabletWide) {
     .columns {
         @include clearfix;
         position: relative;
@@ -65,7 +65,7 @@
 }
 
 .principles {
-    @include mq(tablet) {
+    @include mq(tabletWide) {
         .page-content,
         .page-header {
             height: grid-height(1.5);

@@ -15,7 +15,7 @@
     max-width: grid-span(2) + $gutter*2;
     text-align: center;
 
-    @include mq(desktop) {
+    @include mq(tabletWide) {
         @include clearfix;
         max-width: none;
     }
@@ -24,7 +24,7 @@
         font-size: 22px;
         margin: 0 $gutter/2 $gutter;
 
-        @include mq(desktop) {
+        @include mq(tabletWide) {
             float: left;
             margin-left: $gutter;
             margin-right: 0;
