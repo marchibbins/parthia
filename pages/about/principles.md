@@ -18,14 +18,14 @@ navigation-menu: /about/
                 </div>
             </div>
         </dt>
-        <dd class="columns__right page-content">
-            <div class="columns__wrap">
+        <dd class="columns__right">
+            <div class="columns__wrap page-content">
                 <div class="columns__center">Ipsum dolor sit amet</div>
             </div>
         </dd>
     </dl>
 
-    <dl class="columns columns--switch">
+    <dl class="columns">
         <dt class="columns__right page-header">
             <div class="columns__wrap">
                 <div class="columns__center">
@@ -33,8 +33,8 @@ navigation-menu: /about/
                 </div>
             </div>
         </dt>
-        <dd class="columns__left page-content">
-            <div class="columns__wrap">
+        <dd class="columns__left">
+            <div class="columns__wrap page-content">
                 <div class="columns__center">Ipsum dolor sit amet</div>
             </div>
         </dd>
@@ -48,14 +48,14 @@ navigation-menu: /about/
                 </div>
             </div>
         </dt>
-        <dd class="columns__right page-content">
-            <div class="columns__wrap">
+        <dd class="columns__right">
+            <div class="columns__wrap page-content">
                 <div class="columns__center">Ipsum dolor sit amet</div>
             </div>
         </dd>
     </dl>
 
-    <dl class="columns columns--switch">
+    <dl class="columns">
         <dt class="columns__right page-header">
             <div class="columns__wrap">
                 <div class="columns__center">
@@ -63,8 +63,8 @@ navigation-menu: /about/
                 </div>
             </div>
         </dt>
-        <dd class="columns__left page-content">
-            <div class="columns__wrap">
+        <dd class="columns__left">
+            <div class="columns__wrap page-content">
                 <div class="columns__center">Ipsum dolor sit amet</div>
             </div>
         </dd>

@@ -31,8 +31,10 @@ layout: base
     {% endif %}
 
     {% if !page.home != true %}
-        <article class="columns__right page-content">
-            {{ content }}
+        <article class="columns__right">
+            <div class="page-content">
+                {{ content }}
+            </div>
         </article>
     {% endif %}
 </div>

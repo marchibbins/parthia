@@ -49,7 +49,7 @@
     .columns__right {
         float: left;
         margin-left: grid-span(2) + $gutter;
-        width: grid-span(2) - $gutter*2;
+        width: grid-span(2);
     }
 
     .columns__wrap {
@@ -61,16 +61,6 @@
     .columns__center {
         display: table-cell;
         vertical-align: middle;
-    }
-
-    .columns--switch {
-        .columns__left {
-            width: grid-span(2) - $gutter*2;
-        }
-
-        .columns__right {
-            width: grid-span(2);
-        }
     }
 }
 
