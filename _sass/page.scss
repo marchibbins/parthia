@@ -25,6 +25,16 @@
     min-height: grid-height(1) - $baseline*1.5;
     margin-bottom: $gutter;
     padding: $baseline $gutter $baseline/2;
+
+    a {
+        color: #fff;
+
+        &:hover,
+        &:focus,
+        &:active {
+            text-decoration: underline;
+        }
+    }
 }
 
 .page-image {
@@ -72,6 +82,17 @@
             padding-top: 0;
             padding-bottom: 0;
             text-align: center;
+        }
+    }
+}
+
+.contact {
+    @include mq(tabletWide) {
+        .page-header {
+            height: grid-height(2);
+        }
+        .page-content {
+            height: grid-height(2) - $baseline*1.5;
         }
     }
 }
