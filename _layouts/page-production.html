@@ -1,7 +1,9 @@
 ---
-layout: page
-menu: production-menu
-menu_class: sub
+layout: base
 ---
+
+{% assign menu = 'production-menu' %}
+{% assign menu_class = 'sub' %}
+{% include menu.html %}
 
 {{ content }}

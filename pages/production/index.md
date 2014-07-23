@@ -1,7 +1,9 @@
 ---
-layout: page-production
+layout: page
 title: Production
 permalink: /production/
+menu: production-menu
+menu_class: sub
 ---
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris.</p>

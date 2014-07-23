@@ -23,7 +23,7 @@ $mq-static-breakpoint: desktop !default;
 // If you want to display the currently active breakpoint in the top
 // right corner of your site during development, add the breakpoints
 // to this list, ordered by width, e.g. (mobile, tablet, desktop).
-$mq-show-breakpoints: () !default;
+$mq-show-breakpoints: (mobile, tablet, desktop) !default;
 
 @function mq-px2em($px, $base-font-size: 16px) {
     @if (unitless($px)) {

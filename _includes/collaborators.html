@@ -1,29 +1,29 @@
-<ul>
-    {% for collaborator in site.data.collaborators %}
-        {% if collaborator.type contains collaborator_type %}
-            <li>
-                {% for name in collaborator.name %}
-                    {{ name }},
+{% for collaborator in site.data.collaborators %}
+    {% if collaborator.type == collaborator_type %}
+    <div class="collaborator">
+        <img class="page-image" src="{{ collaborator.image }}">
+        <div class="columns">
+            <header class="columns__left page-header">
+                <div class="columns__wrap">
+                    <div class="columns__center">
+                        <h1 class="page-header__title">{{ collaborator.name }}</h1>
+                        <h2 class="page-header__subtitle">{{ collaborator_type | capitalize }}</h2>
+                    </div>
+                </div>
+            </header>
+            <article class="columns__right">
+                <div class="page-content">{{ collaborator.about }}</div>
+            </article>
+        </div>
+        {% if collaborator.videos %}
+            <ul class="collaborator__media-list">
+                {% for video in collaborator.videos %}
+                    <li>
+                        <a class="collaborator__media" href="{{ video.url }}" style="background: url({{ video.image }}) center center no-repeat; background-size: cover;">Play video</a>
+                    </li>
                 {% endfor %}
-                <em>{{ collaborator_type | capitalize }}</em>
-                <p>{{ collaborator.about }}</p>
-
-                {% if collaborator.images %}
-                    <ul>
-                        {% for src in collaborator.images %}
-                            <li><img src="{{ src }}"></li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
-
-                {% if collaborator.links %}
-                    <ul>
-                        {% for href in collaborator.links %}
-                            <li><a href="{{ href }}">{{ href }}</a></li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
-            </li>
+            </ul>
         {% endif %}
-    {% endfor %}
-</ul>
+    </div>
+    {% endif %}
+{% endfor %}

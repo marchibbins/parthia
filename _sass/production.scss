@@ -1,0 +1,28 @@
+/* Production pages */
+.collaborator {
+    margin-bottom: $baseline*2;
+
+    .collaborator__media-list {
+        @extend .unstyled;
+        font-size: 0;
+
+        @include mq(tabletWide) {
+            @include clearfix;
+            margin-left: -$gutter;
+        }
+    }
+
+    .collaborator__media {
+        display: block;
+        margin-bottom: $gutter;
+        display: block;
+        height: grid-height(1.5);
+        width: 100%;
+
+        @include mq(tabletWide) {
+            float: left;
+            margin-left: $gutter;
+            width: grid-span(2);
+        }
+    }
+}
