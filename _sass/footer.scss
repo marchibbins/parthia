@@ -3,7 +3,7 @@
     border-top: 1px solid $border-grey;
     font-size: 12px;
     margin-top: grid-height(1);
-    padding: ($baseline - 1) 0 $baseline;
+    padding: ($baseline - 1) 0 $baseline*2;
 
     .site-footer__column {
         @include mq(tablet) {
@@ -13,15 +13,6 @@
     }
 
     .site-footer__copy {
-        margin-bottom: $baseline*1;
-    }
-
-    .site-footer__info {
-        margin-bottom: $baseline;
-    }
-
-    .site-footer__info-title {
-        font-size: inherit;
-        font-weight: normal;
+        margin-bottom: $baseline*2;
     }
 }
