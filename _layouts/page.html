@@ -9,7 +9,7 @@ layout: base
 {% endif %}
 
 {% if page.image %}
-    <img class="page-image" src="{{ page.image }}">
+    <img class="page-image" src="{{ page.image | prepend: site.baseurl }}">
 {% endif %}
 
 <div class="columns">
