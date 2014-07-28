@@ -20,6 +20,14 @@
         position: relative;
         width: 100%;
 
+        &:before {
+            content: '';
+            display: block;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
         &:after {
             background: transparent url(/images/play.png);
             content: '';
