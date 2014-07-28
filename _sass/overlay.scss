@@ -15,9 +15,9 @@
     height: $button-height;
     overflow: hidden;
     position: absolute;
-    right: $gutter*5;
+    right: $gutter;
     text-indent: -9999px;
-    top: $baseline;
+    top: $baseline*4;
     width: $button-width;
     z-index: 9999;
 }
