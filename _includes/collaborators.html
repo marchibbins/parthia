@@ -19,7 +19,7 @@
             <ul class="collaborator__media-list">
                 {% for video in collaborator.videos %}
                     <li>
-                        <a class="collaborator__media" href="{{ video.url }}" target="_blank" style="background: url({{ video.image }}) center center no-repeat; background-size: cover;" title="Play video">Play video</a>
+                        <a class="collaborator__media" href="{{ video.url }}" target="_blank" style="background: url({{ video.image }}) center center no-repeat; background-size: cover;" title="Play video" data-vimeo>Play video</a>
                     </li>
                 {% endfor %}
             </ul>

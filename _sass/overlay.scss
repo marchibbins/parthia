@@ -1,0 +1,23 @@
+/* Overlay styles */
+#overlay {
+    background-color: black;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+#overlay-close {
+    background: transparent url(/images/close.png);
+    display: block;
+    height: $button-height;
+    overflow: hidden;
+    position: absolute;
+    right: $gutter*5;
+    text-indent: -9999px;
+    top: $baseline;
+    width: $button-width;
+    z-index: 9999;
+}
