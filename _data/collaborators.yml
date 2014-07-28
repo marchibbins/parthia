@@ -4,11 +4,11 @@
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
     - image: http://lorempixel.com/850/400/sports/1/
-      url: http://vimeo.com/24805707
+      url: http://vimeo.com/70426395
     - image: http://lorempixel.com/828/390/sports/4/
-      url: http://vimeo.com/24805707
+      url: http://vimeo.com/70426395
     - image: http://lorempixel.com/850/400/people/4/
-      url: http://vimeo.com/24805707
+      url: http://vimeo.com/70426395
 
 - name: Ted Knight
   image: /images/one.gif
@@ -16,9 +16,9 @@
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
     - image: http://lorempixel.com/850/400/city/1/
-      url: http://vimeo.com/24805707/
+      url: http://vimeo.com/70426395/
     - image: http://lorempixel.com/850/400/city/2/
-      url: http://vimeo.com/24805707
+      url: http://vimeo.com/70426395
 
 - name: Lana Lang
   image: /images/one.gif
@@ -26,9 +26,9 @@
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
     - image: http://lorempixel.com/850/400/city/4/
-      url: http://vimeo.com/24805707
+      url: http://vimeo.com/70426395
     - image: http://lorempixel.com/850/400/city/5/
-      url: http://vimeo.com/24805707
+      url: http://vimeo.com/70426395
 
 - name: Bruce Wayne
   image: /images/one.gif
@@ -36,9 +36,9 @@
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
     - image: http://lorempixel.com/850/400/nightlife/1/
-      url: http://vimeo.com/24805707
+      url: http://vimeo.com/70426395
     - image: http://lorempixel.com/850/400/fashion/3/
-      url: http://vimeo.com/24805707
+      url: http://vimeo.com/70426395
 
 - name: Arthur Curry
   image: /images/one.gif
@@ -46,6 +46,6 @@
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
     - image: http://lorempixel.com/850/400/city/5/
-      url: http://vimeo.com/24805707
+      url: http://vimeo.com/70426395
     - image: http://lorempixel.com/850/400/city/6/
-      url: http://vimeo.com/24805707
+      url: http://vimeo.com/70426395
