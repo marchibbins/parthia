@@ -17,7 +17,21 @@
         margin-bottom: $gutter;
         display: block;
         height: grid-height(1.5);
+        position: relative;
         width: 100%;
+
+        &:after {
+            background: transparent url(/images/play.png);
+            content: '';
+            display: block;
+            height: $button-height;
+            left: 50%;
+            margin-left: -$button-width/2;
+            margin-top: -$button-height/2;
+            position: absolute;
+            top: 50%;
+            width: $button-width;
+        }
 
         @include mq(tabletWide) {
             float: left;
