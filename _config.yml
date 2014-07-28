@@ -17,6 +17,6 @@ defaults:
       layout: "page"
 
 # Build settings
-exclude: ['Gruntfile.js', 'package.json', 'readme.md']
+exclude: ['Gruntfile.js', 'node_modules', 'package.json', 'readme.md']
 markdown: kramdown
 permalink: pretty
