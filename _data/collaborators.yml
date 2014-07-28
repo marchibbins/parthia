@@ -3,11 +3,11 @@
   type: director
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
-    - image: http://placehold.it/414x195/600/fff
+    - image: http://lorempixel.com/850/400/sports/1/
       url: http://vimeo.com/24805707
-    - image: http://placehold.it/828x390/600/fff
+    - image: http://lorempixel.com/828/390/sports/4/
       url: http://vimeo.com/24805707
-    - image: http://placehold.it/414x195/600/fff
+    - image: http://lorempixel.com/850/400/people/4/
       url: http://vimeo.com/24805707
 
 - name: Ted Knight
@@ -15,9 +15,9 @@
   type: director
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
-    - image: http://placehold.it/414x195/600/fff
-      url: http://vimeo.com/24805707
-    - image: http://placehold.it/414x195/600/fff
+    - image: http://lorempixel.com/850/400/city/1/
+      url: http://vimeo.com/24805707/
+    - image: http://lorempixel.com/850/400/city/2/
       url: http://vimeo.com/24805707
 
 - name: Lana Lang
@@ -25,9 +25,9 @@
   type: producer
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
-    - image: http://placehold.it/414x195/600/fff
+    - image: http://lorempixel.com/850/400/city/4/
       url: http://vimeo.com/24805707
-    - image: http://placehold.it/414x195/600/fff
+    - image: http://lorempixel.com/850/400/city/5/
       url: http://vimeo.com/24805707
 
 - name: Bruce Wayne
@@ -35,9 +35,9 @@
   type: producer
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
-    - image: http://placehold.it/414x195/600/fff
+    - image: http://lorempixel.com/850/400/nightlife/1/
       url: http://vimeo.com/24805707
-    - image: http://placehold.it/414x195/600/fff
+    - image: http://lorempixel.com/850/400/fashion/3/
       url: http://vimeo.com/24805707
 
 - name: Arthur Curry
@@ -45,7 +45,7 @@
   type: producer
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
-    - image: http://placehold.it/414x195/600/fff
+    - image: http://lorempixel.com/850/400/city/5/
       url: http://vimeo.com/24805707
-    - image: http://placehold.it/414x195/600/fff
+    - image: http://lorempixel.com/850/400/city/6/
       url: http://vimeo.com/24805707
