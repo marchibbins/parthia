@@ -1,7 +1,7 @@
 /* Site footer */
 .site-footer {
     border-top: 1px solid $border-grey;
-    font-size: 12px;
+    @include clearfix;
     margin-top: grid-height(1);
     padding: ($baseline - 1) 0 $baseline*2;
 
