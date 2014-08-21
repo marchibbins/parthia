@@ -1,6 +1,6 @@
 /* Page styles */
 .page-header {
-    background-color: $parthia-red;
+    background-color: $page-header-color;
     min-height: grid-height(1);
     margin-bottom: $gutter;
     text-align: center;
@@ -20,8 +20,8 @@
 }
 
 .page-content {
-    background-color: $site-header-color;
-    color: #fff;
+    background-color: $page-background-color;
+    color: $page-text-color;
     min-height: grid-height(1) - $baseline*1.5;
     margin-bottom: $gutter;
     padding: $baseline $gutter $baseline/2;
@@ -32,11 +32,11 @@
     h4,
     h5,
     h6 {
-            color: #fff;
+        color: $page-text-color;
     }
 
     a {
-        color: #fff;
+        color: $page-text-color;
 
         &:hover,
         &:focus,
@@ -47,7 +47,7 @@
 }
 
 .page-image {
-    border-top: 12px solid $border-red;
+    border-top: 12px solid $border-color;
     display: block;
     margin-bottom: $gutter;
 }

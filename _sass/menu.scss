@@ -21,7 +21,7 @@
     }
 
     .nav__link {
-        background-color: $site-header-color;
+        background-color: $link-background-color;
         color: $nav-text-color;
         display: block;
         font-size: 22px;
@@ -29,10 +29,13 @@
         height: grid-height(1);
 
         &:hover,
-        &:focus,
+        &:focus {
+            background-color: $link-hover-color;
+        }
+
         &:active,
         &.active {
-            background-color: $link-hover-color;
+            background-color: $link-active-color;
         }
     }
 
@@ -80,10 +83,13 @@
         line-height: 30px;
 
         &:hover,
-        &:focus,
+        &:focus {
+            color: $link-background-color;
+        }
+
         &:active,
         &.active {
-            color: $link-hover-color;
+            color: $link-active-color;
         }
     }
 }

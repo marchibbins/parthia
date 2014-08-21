@@ -15,17 +15,29 @@ $icon-height:           44px;
 $icon-width:            44px;
 
 /* Colour */
-$parthia-red:           #fe0000;
-$parthia-grey:          #3c3c3c;
-$background-color:      #fff;
-$border-grey:           #ddd;
-$border-red:            $parthia-red;
-$link-color:            $parthia-red;
-$link-hover-color:      $parthia-red;
+$parthia-pink:          #ff1168;
+$parthia-purple:        #9e1e4c;
+$parthia-grey:          #8f8f8f;
+$parthia-dark-grey:     #25020F;
+
+/* Styles */
+$site-header-color:     $parthia-dark-grey;
+$border-grey:           $parthia-dark-grey;
+$border-color:          $parthia-pink;
 $body-text-color:       $parthia-grey;
-$title-text-color:      $parthia-grey;
-$site-header-color:     $parthia-grey;
+$title-text-color:      $parthia-pink;
 $nav-text-color:        #fff;
+
+/* Links */
+$link-color:            $parthia-pink;
+$link-hover-color:      $parthia-pink;
+$link-active-color:     $parthia-pink;
+$link-background-color: $parthia-purple;
+
+/* Pages */
+$page-header-color:     $parthia-pink;
+$page-background-color: $parthia-grey;
+$page-text-color:       #fff;
 
 /* Fonts */
 $sans-serif:            'Fjalla One', Helvetica, Arial, sans-serif;
