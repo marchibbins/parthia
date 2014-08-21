@@ -86,10 +86,10 @@
 .contact {
     @include mq(tabletWide) {
         .page-header {
-            height: grid-height(2);
+            height: grid-height(3);
         }
         .page-content {
-            height: grid-height(2) - $baseline*1.5;
+            height: grid-height(3) - $baseline*1.5;
         }
     }
 }
