@@ -11,24 +11,41 @@
 
 .nav--site {
     font-size: 0;
-    margin: $baseline auto $gutter;
+    margin: $baseline auto;
     max-width: grid-span(2) + $gutter*2;
     text-align: center;
 
-    @include mq(tabletWide) {
-        @include clearfix;
-        margin: $baseline*2 auto ($baseline + $gutter);
-        max-width: none;
+    .nav__item {
+        margin: 2%;
+        width: 46%;
     }
 
-    .nav__item {
+    .nav__link {
+        background-color: $site-header-color;
+        color: $nav-text-color;
+        display: block;
         font-size: 22px;
-        margin: 0 $gutter/2 $gutter;
+        line-height: grid-height(1);
+        height: grid-height(1);
 
-        @include mq(tabletWide) {
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            background-color: $link-hover-color;
+        }
+    }
+
+    @include mq(tablet) {
+        @include clearfix;
+        margin: $baseline*2 auto ($baseline + $gutter);
+        max-width: 702px;
+
+        .nav__item {
             float: left;
             margin-left: $gutter;
             margin-right: 0;
+            width: 165px;
 
             &:first-child {
                 margin-left: 0;
@@ -36,19 +53,11 @@
         }
     }
 
-    .nav__link {
-        background-color: $site-header-color;
-        color: $nav-text-color;
-        display: block;
-        line-height: grid-height(1);
-        height: grid-height(1);
-        width: grid-span(1);
+    @include mq(tabletWide) {
+        max-width: none;
 
-        &:hover,
-        &:focus,
-        &:active,
-        &.active {
-            background-color: $link-hover-color;
+        .nav__item {
+            width: grid-span(1);
         }
     }
 }

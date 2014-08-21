@@ -22,7 +22,12 @@
     color: $title-text-color;
     font-size: 34px;
     line-height: 36px;
-    margin: $baseline*4 auto 0;
+    margin: $baseline*2 auto;
     text-align: center;
     max-width: grid-span(2);
+
+
+    @include mq(tabletWide) {
+        margin: $baseline*4 auto $baseline*3;
+    }
 }
