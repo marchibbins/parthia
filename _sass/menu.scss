@@ -11,12 +11,13 @@
 
 .nav--site {
     font-size: 0;
-    margin: $baseline*4 auto $baseline*3;
+    margin: $baseline auto $gutter;
     max-width: grid-span(2) + $gutter*2;
     text-align: center;
 
     @include mq(tabletWide) {
         @include clearfix;
+        margin: $baseline*2 auto ($baseline + $gutter);
         max-width: none;
     }
 
@@ -53,8 +54,12 @@
 }
 
 .nav--sub {
-    margin-bottom: $baseline*3;
+    margin-bottom: $baseline + $gutter;
     text-align: center;
+
+    @include mq(tabletWide) {
+        margin-bottom: $baseline*2;
+    }
 
     .nav__item {
         display: block;
