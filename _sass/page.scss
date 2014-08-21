@@ -26,6 +26,15 @@
     margin-bottom: $gutter;
     padding: $baseline $gutter $baseline/2;
 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+            color: #fff;
+    }
+
     a {
         color: #fff;
 
@@ -71,18 +80,6 @@
     .columns__center {
         display: table-cell;
         vertical-align: middle;
-    }
-}
-
-.principles {
-    @include mq(tabletWide) {
-        .page-content,
-        .page-header {
-            height: grid-height(1.5);
-            padding-top: 0;
-            padding-bottom: 0;
-            text-align: center;
-        }
     }
 }
 
