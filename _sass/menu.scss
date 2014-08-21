@@ -31,11 +31,13 @@
         &:hover,
         &:focus {
             background-color: $link-hover-color;
+            color: #fff;
         }
 
         &:active,
         &.active {
             background-color: $link-active-color;
+            color: #fff;
         }
     }
 
