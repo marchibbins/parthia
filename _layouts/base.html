@@ -5,7 +5,9 @@
     {% include header.html %}
 
     <div class="container">
-        <p class="site-tagline">{{ site.description }}</p>
+        {% if page.home == true %}
+            <p class="site-tagline">{{ site.description }}</p>
+        {% endif %}
 
         {% assign menu = 'navigation-menu' %}
         {% assign menu_class = 'site' %}

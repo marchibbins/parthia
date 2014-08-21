@@ -11,7 +11,7 @@
 
 .nav--site {
     font-size: 0;
-    margin: 0 auto $baseline*3;
+    margin: $baseline*4 auto $baseline*3;
     max-width: grid-span(2) + $gutter*2;
     text-align: center;
 
