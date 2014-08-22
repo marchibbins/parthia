@@ -24,8 +24,7 @@
     line-height: 36px;
     margin: $baseline*2 auto;
     text-align: center;
-    max-width: grid-span(2);
-
+    max-width: 385px;
 
     @include mq(tabletWide) {
         margin: $baseline*4 auto $baseline*3;
