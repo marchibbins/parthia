@@ -1,7 +1,6 @@
 {% for collaborator in site.data.collaborators %}
     {% if collaborator.type == collaborator_type %}
     <div class="collaborator">
-        <img class="page-image" src="{{ collaborator.image | prepend: site.baseurl }}">
         <div class="columns">
             <header class="columns__left page-header">
                 <div class="columns__wrap">

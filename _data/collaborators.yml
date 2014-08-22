@@ -1,5 +1,4 @@
 - name: Peter Parker
-  image: /images/about.jpg
   type: director
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
@@ -11,7 +10,6 @@
       url: http://vimeo.com/70426395
 
 - name: Ted Knight
-  image: /images/about.jpg
   type: director
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
@@ -21,7 +19,6 @@
       url: http://vimeo.com/70426395
 
 - name: Lana Lang
-  image: /images/about.jpg
   type: producer
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
@@ -31,7 +28,6 @@
       url: http://vimeo.com/70426395
 
 - name: Bruce Wayne
-  image: /images/about.jpg
   type: producer
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
@@ -41,7 +37,6 @@
       url: http://vimeo.com/70426395
 
 - name: Arthur Curry
-  image: /images/about.jpg
   type: producer
   about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem ligula, tempor eu enim ac, adipiscing euismod tellus. Maecenas sodales euismod sem. Ut tristique malesuada nisi. Proin non sem lectus. Vivamus elit nisl, aliquam sit amet faucibus a, gravida a mauris. Vestibulum pharetra tellus vel scelerisque commodo"
   videos:
