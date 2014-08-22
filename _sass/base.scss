@@ -1,6 +1,6 @@
 /* Typography */
 html {
-    font-family: $sans-serif;
+    font-family: $body-font;
     // Set baseline font size to 10px
     // This is used as a baseline for rem (root ems) values
     font-size: 62.5%;
@@ -20,6 +20,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: $title-font;
     color: $title-text-color;
     font-weight: normal;
     margin: 0;

@@ -24,7 +24,7 @@
         background-color: $link-background-color;
         color: $nav-text-color;
         display: block;
-        font-size: 22px;
+        font-size: 26px;
         line-height: grid-height(1);
         height: grid-height(1);
 
@@ -81,6 +81,7 @@
 
     .nav__link {
         color: $body-text-color;
+        font-family: $title-font;
         font-size: 22px;
         line-height: 30px;
 

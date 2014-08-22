@@ -42,7 +42,7 @@ $page-background-color: $parthia-dark-grey;
 $page-text-color:       $parthia-grey;
 
 /* Fonts */
-$sans-serif:            'Fjalla One', Helvetica, Arial, sans-serif;
+$sans-serif:            'TradeGothicLT-CondEighteen', Helvetica, Arial, sans-serif;
 $serif:                 Georgia, serif;
-$bodyTextWeight:        300;
-$titleTextWeight:       600;
+$body-font:             $sans-serif;
+$title-font:            'TradeGothicLTPro-BdCn20', $sans-serif;

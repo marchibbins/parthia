@@ -1,0 +1,18 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2bc1e1");
+
+@font-face {
+    font-family: 'TradeGothicLT-CondEighteen';
+    src: url('../webfonts/2BC1E1_0_0.eot');
+    src: url('../webfonts/2BC1E1_0_0.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/2BC1E1_0_0.woff') format('woff'),
+         url('../webfonts/2BC1E1_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TradeGothicLTPro-BdCn20';
+    src: url('../webfonts/2BC1E1_1_0.eot');
+    src: url('../webfonts/2BC1E1_1_0.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/2BC1E1_1_0.woff') format('woff'),
+         url('../webfonts/2BC1E1_1_0.ttf') format('truetype');
+}
