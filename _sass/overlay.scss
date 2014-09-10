@@ -4,6 +4,7 @@
     left: 0;
     height: 100%;
     position: fixed;
+    text-align: center;
     top: 0;
     width: 100%;
     z-index: 9999;
@@ -12,6 +13,13 @@
         display: block;
         margin: 0 auto;
         max-width: 90%;
+    }
+
+    &.image:before {
+        content: ' ';
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
     }
 }
 
@@ -26,4 +34,19 @@
     top: $baseline*4;
     width: $button-width;
     z-index: 9999;
+}
+
+#overlay-image-wrap {
+    display: inline-block;
+    max-height: 90%;
+    margin: 0 auto;
+    max-width: 90%;
+    vertical-align: middle;
+
+    #overlay-image {
+        display: block;
+        margin: 0 auto;
+        max-height: 90%;
+        max-width: 90%;
+    }
 }

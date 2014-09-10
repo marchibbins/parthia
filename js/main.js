@@ -1,14 +1,18 @@
 
 var isModernBrowser = 'querySelector' in document && 'localStorage' in window && 'addEventListener' in window;
 if (isModernBrowser) {
-    var openModal = function(type, id) {
+    var openModal = function(type, url) {
         var overlay = document.createElement('div');
 
-        if (type === 'vimeo') {
-            overlay.innerHTML = '<iframe src="//player.vimeo.com/video/' + id + '" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+        if (type === 'image') {
+            overlay.innerHTML = '<div id="overlay-image-wrap"><img id="overlay-image" src="' + url + '"></div>';
+        }
+        else if (type === 'vimeo') {
+            overlay.innerHTML = '<iframe src="' + url + '" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
         }
 
         overlay.id = 'overlay';
+        overlay.className = type;
         overlay.innerHTML += '<a href="#" id="overlay-close">Close</a>';
 
         document.body.style.overflow = 'hidden';
@@ -21,9 +25,17 @@ if (isModernBrowser) {
     openVimeo = function(event) {
         event.preventDefault();
         var el = event.target,
-            id = el.getAttribute('href').split('vimeo.com/')[1];
+            url = '//player.vimeo.com/video/' + el.getAttribute('href').split('vimeo.com/')[1];
 
-        openModal('vimeo', id);
+        openModal('vimeo', url);
+    },
+
+    openImage = function(event) {
+        event.preventDefault();
+        var el = event.target,
+            url = el.getAttribute('href');
+
+        openModal('image', url);
     },
 
     closeModal = function(event) {
@@ -33,8 +45,14 @@ if (isModernBrowser) {
         document.body.style.overflow = 'auto';
     },
 
-    vimeos = document.querySelectorAll('[data-vimeo]');
+    vimeos = document.querySelectorAll('[data-vimeo]'),
+    images = document.querySelectorAll('[data-image]');
+
     for (var i = 0; i < vimeos.length; i++) {
         vimeos[i].addEventListener('click', openVimeo, false);
+    }
+
+    for (var i = 0; i < images.length; i++) {
+        images[i].addEventListener('click', openImage, false);
     }
 }

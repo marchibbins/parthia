@@ -21,6 +21,11 @@
                         <a class="collaborator__media" href="{{ video.url }}" target="_blank" style="background: url({{ video.image }}) center center no-repeat; background-size: cover;" title="Play video" data-vimeo>Play video</a>
                     </li>
                 {% endfor %}
+                {% for image in collaborator.images %}
+                    <li>
+                        <a class="collaborator__media" href="{{ image.url }}" target="_blank" style="background: url({{ image.url }}) center center no-repeat; background-size: cover;" title="View image" data-image>View image</a>
+                    </li>
+                {% endfor %}
             </ul>
         {% endif %}
     </div>
