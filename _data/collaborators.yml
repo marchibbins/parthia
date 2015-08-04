@@ -54,3 +54,51 @@
   videos:
       - url: http://vimeo.com/104111026
         image: http://i.vimeocdn.com/video/486560324.jpg
+
+- name: Ben Sherman
+  type: recent
+  hide_type: true
+  hide_about: true
+  videos:
+      - url: http://vimeo.com/118933130
+        image: http://i.vimeocdn.com/video/521211937.jpg
+      - url: http://vimeo.com/118931700
+        image: http://i.vimeocdn.com/video/506073958.jpg
+      - url: http://vimeo.com/118929469
+        image: http://i.vimeocdn.com/video/521211647.jpg
+
+- name: Cadbury's
+  type: recent
+  videos:
+      - url: http://vimeo.com/129645034
+        image: http://i.vimeocdn.com/video/521210423.jpg
+      - url: http://vimeo.com/129608141
+        image: http://i.vimeocdn.com/video/521160060.jpg
+      - url: http://vimeo.com/129609474
+        image: http://i.vimeocdn.com/video/521162077.jpg
+      - url: http://vimeo.com/129606624
+        image: http://i.vimeocdn.com/video/521158436.jpg
+      - url: http://vimeo.com/129000960
+        image: http://i.vimeocdn.com/video/520332871.jpg
+
+- name: Bench
+  type: recent
+  videos:
+      - url: http://vimeo.com/113490944
+        image: http://i.vimeocdn.com/video/498832342.jpg
+      - url: http://vimeo.com/113684490
+        image: http://i.vimeocdn.com/video/499092865.jpg
+      - url: http://vimeo.com/113685193
+        image: http://i.vimeocdn.com/video/499093967.jpg
+      - url: http://vimeo.com/113494595
+        image: http://i.vimeocdn.com/video/498907320.jpg
+
+- name: Ben Sherman
+  type: recent
+  videos:
+      - url: http://vimeo.com/109671493
+        image: http://i.vimeocdn.com/video/495183548.jpg
+      - url: http://vimeo.com/109912091
+        image: http://i.vimeocdn.com/video/495183339.jpg
+      - url: http://vimeo.com/111421889
+        image: http://i.vimeocdn.com/video/496030208.jpg
