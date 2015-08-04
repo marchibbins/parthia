@@ -83,6 +83,16 @@
     }
 }
 
+.no-description {
+    .page-content {
+        display: none;
+    }
+
+    @include mq(tabletWide) {
+        min-height: grid-height(1) + $baseline*4;
+    }
+}
+
 .contact {
     @include mq(tabletWide) {
         .page-header {

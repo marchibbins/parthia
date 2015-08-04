@@ -6,11 +6,13 @@
                 <div class="columns__wrap">
                     <div class="columns__center">
                         <h1 class="page-header__title">{{ collaborator.name }}</h1>
-                        <h2 class="page-header__subtitle">{{ collaborator_type | capitalize }}</h2>
+                        {% if collaborator.hide_type == null %}
+                            <h2 class="page-header__subtitle">{{ collaborator_type | capitalize }}</h2>
+                        {% endif %}
                     </div>
                 </div>
             </header>
-            <article class="columns__right">
+            <article class="columns__right {% if collaborator.hide_about %}no-description{% endif %}">
                 <div class="page-content">{{ collaborator.about }}</div>
             </article>
         </div>
