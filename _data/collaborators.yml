@@ -69,6 +69,8 @@
 
 - name: Cadbury's
   type: recent
+  hide_type: true
+  hide_about: true
   videos:
       - url: http://vimeo.com/129645034
         image: http://i.vimeocdn.com/video/521210423.jpg
@@ -83,6 +85,8 @@
 
 - name: Bench
   type: recent
+  hide_type: true
+  hide_about: true
   videos:
       - url: http://vimeo.com/113490944
         image: http://i.vimeocdn.com/video/498832342.jpg
@@ -95,6 +99,8 @@
 
 - name: Ben Sherman
   type: recent
+  hide_type: true
+  hide_about: true
   videos:
       - url: http://vimeo.com/109671493
         image: http://i.vimeocdn.com/video/495183548.jpg
